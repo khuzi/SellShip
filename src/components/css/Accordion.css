@@ -1,0 +1,130 @@
+.accordion {
+  width: 60%;
+  margin: 0px auto !important;
+  margin-bottom: 30px !important;
+}
+.heading {
+  color: blue;
+}
+
+.makeStyles-root-1 {
+  /* box-shadow: 5px 5px 5px #eaeaea; */
+  width: 91.5% !important;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  border-bottom: none;
+  margin-left: 5%;
+}
+/* 
+.Accordion {
+  width: 110% !important;
+  margin: 0px auto;
+  margin-bottom: 30px;
+} */
+@media (max-width: 1024px) {
+  .accordion {
+    width: 65%;
+  }
+  .makeStyles-root-1 {
+    /* margin-left: 3.8%; */
+    margin-top: 150px;
+    margin-left: 5%;
+    /* width: 62.5% !important; */
+  }
+  .makeStyles-heading-2 {
+    font-size: 16px !important;
+  }
+  .makeStyles-secondaryHeading-3 {
+    font-size: 16px !important;
+    padding-left: 7px;
+  }
+  .MuiTypography-body1 {
+    font-size: 16px !important;
+  }
+  .MuiAccordionDetails-root {
+    padding: 8px 38px 16px !important;
+  }
+}
+
+@media (max-width: 769px) {
+  .makeStyles-root-1 {
+    margin-top: 138px;
+    margin-left:8%;
+  }
+  .accordion {
+    width: 65%;
+  }
+}
+@media (max-width: 600px) {
+  .accordion {
+    width: 95%;
+  }
+  .makeStyles-root-1 {
+    /* margin-left: 3.8%; */
+    margin-left: 5%;
+    margin-top: 55px;
+  }
+  .makeStyles-heading-2 {
+    font-size: 13px !important;
+  }
+  .makeStyles-secondaryHeading-3 {
+    font-size: 13px !important;
+    padding-left: 7px;
+  }
+  .MuiTypography-body1 {
+    font-size: 15px !important;
+  }
+  .MuiAccordionDetails-root {
+    padding: 8px 38px 16px !important;
+  }
+}
+@media (max-width: 415px) {
+  .accordion {
+    width: 95%;
+  }
+  .makeStyles-root-1 {
+    /* margin-left: 3.8%; */
+    margin-left: 5%;
+  }
+  .makeStyles-heading-2 {
+    font-size: 13px !important;
+  }
+  .makeStyles-secondaryHeading-3 {
+    font-size: 13px !important;
+    padding-left: 7px;
+  }
+  .MuiTypography-body1 {
+    font-size: 14px !important;
+  }
+  .MuiAccordionDetails-root {
+    padding: 8px 38px 16px !important;
+  }
+}
+
+@media (max-width: 365px) {
+  .accordion {
+    width: 95%;
+  }
+  .makeStyles-root-1 {
+    /* margin-left: 3.8%; */
+    margin-left: 5%;
+  }
+  .makeStyles-heading-2 {
+    font-size: 13px !important;
+  }
+  .makeStyles-secondaryHeading-3 {
+    font-size: 13px !important;
+    padding-left: 7px;
+  }
+  .MuiTypography-body1 {
+    font-size: 14px !important;
+  }
+  .MuiAccordionDetails-root {
+    padding: 8px 38px 16px !important;
+  }
+}
+@media (max-width: 320px) {
+  .MuiTypography-body1 {
+    font-size: 12px !important;
+  }
+}

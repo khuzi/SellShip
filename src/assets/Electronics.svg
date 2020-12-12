@@ -1,0 +1,12 @@
+<svg id="Electronics" xmlns="http://www.w3.org/2000/svg" width="36.102" height="34.504" viewBox="0 0 36.102 34.504">
+  <path id="Path_99" data-name="Path 99" d="M159.121,401l-6.112,2.179-.232.81a3.066,3.066,0,0,1-2.778,2.1v.545h12.676Z" transform="translate(-139.104 -372.67)" fill="#adaca7"/>
+  <path id="Path_100" data-name="Path 100" d="M199.953,376.168l-.854-2.989L195.576,371l-3.523,2.179-.623,2.179h6.112l.232.81a3.066,3.066,0,0,0,2.778,2.1l1.09.545,1.09-.545A3.066,3.066,0,0,1,199.953,376.168Z" transform="translate(-177.524 -344.85)" fill="#8f8f8b"/>
+  <path id="Path_101" data-name="Path 101" d="M437,261.9h2.179a2.186,2.186,0,0,0,2.179-2.179v-4.358L437,251Z" transform="translate(-405.256 -233.566)" fill="#adaca7"/>
+  <path id="Path_102" data-name="Path 102" d="M0,204.075a2.186,2.186,0,0,0,2.179,2.179H31.744a2.186,2.186,0,0,0,2.179-2.179V191L0,199.717Z" transform="translate(0 -177.925)" fill="#cbc9c2"/>
+  <path id="Path_103" data-name="Path 103" d="M439.179,11H437l2.179,21.792h2.179V13.179A2.186,2.186,0,0,0,439.179,11Z" transform="translate(-405.256 -11)" fill="#404242"/>
+  <path id="Path_104" data-name="Path 104" d="M33.923,13.179A2.186,2.186,0,0,0,31.744,11H2.179A2.186,2.186,0,0,0,0,13.179V32.792H33.923V30.613L18.051,21.9Z" transform="translate(0 -11)" fill="#565959"/>
+  <path id="Path_105" data-name="Path 105" d="M264.372,40.976l-2.179,0L248.5,49.692l13.693,8.718h2.179S264.372,40.976,264.372,40.976Z" transform="translate(-230.449 -38.797)" fill="#ff7300"/>
+  <path id="Path_106" data-name="Path 106" d="M59.565,40.975l-29.558,0S30,58.408,30,58.409H59.564S59.562,40.975,59.565,40.975Z" transform="translate(-27.821 -38.796)" fill="#ff9c4b"/>
+  <ellipse id="Ellipse_41" data-name="Ellipse 41" cx="1.09" cy="1.09" rx="1.09" ry="1.09" transform="translate(16.961 23.971)" fill="#fff"/>
+  <path id="Path_107" data-name="Path 107" d="M109.063,472.09H86.545a.545.545,0,0,1,0-1.09h22.518a.545.545,0,1,1,0,1.09Z" transform="translate(-79.753 -437.585)" fill="#8f8f8b"/>
+</svg>

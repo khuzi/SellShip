@@ -1,0 +1,131 @@
+.card {
+  background-color: white;
+  /* width: 190px; */
+  
+  text-align: center;
+  /* margin: 20px 10px 5px 5px; */
+  transform: translate3d(0, 0, 0);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.card-title {
+  font-size: 18px;
+}
+.card-image {
+  width: 50px;
+  height: 50px;
+  margin: 0px auto;
+}
+.card {
+  height: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-top: 2%;
+}
+.home-category-card{
+  padding-top: 15%;
+}
+.card-text {
+  font-size: 13px;
+}
+
+
+@media (min-width: 280px) and (max-width: 319px) {
+  .card {
+    height: 130px;
+    /* width: 130px !important; */
+  }
+}
+@media (min-width: 320px) and (max-width: 409px) {
+  .card {
+    height: 130px;
+    /* width: 130px !important; */
+  }
+}
+@media (min-width: 1121px) and (max-width: 1330px) {
+  .card {
+    height: 120px;
+  }
+  .card-body {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+  .home-Jumbo-box h3 {
+    font-size: 1.7rem;
+  }
+  .recent-items {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    /* width: 200px !important; */
+  }
+}
+/*For Mobiles*/
+@media (min-width: 992px) and (max-width: 1024px) {
+  .card {
+    height: 155px;
+    /* width: 266px; */
+    text-align: center;
+    /* margin: 20px 20px 5px 20px; */
+  }
+}
+@media (max-width: 550px) {
+  .card {
+    height: 151px;
+    /* width: 230px !important; */
+    /* margin: 20px 15px 5px 10px; */
+  }
+  /* .Beauty,
+  .Book, .Electronics,.Motors,.card-image {
+    padding-top: 18px !important;
+  } */
+}
+@media (max-width: 430px) {
+  .card {
+    height: 125px;
+    /* width: 165px !important; */
+    font-size: 16px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+
+}
+@media (max-width: 380px) {
+  .card {
+    height: 113px;
+    /* width: 147px !important; */
+    font-size: 14px;
+  }
+  .card-body {
+    padding: 0.95rem;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+}
+@media (max-width: 360px) {
+  .card {
+    height: 113px;
+    /* width: 140px !important; */
+    font-size: 14px;
+  }
+  .card-body {
+    padding: 0.95rem;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .card {
+    /* width: 120px !important; */
+  }
+}

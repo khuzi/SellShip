@@ -1,0 +1,68 @@
+.my-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 59%;
+  margin: 0px auto;
+}
+.my-items-title {
+  color: #292a2e;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 27px;
+}
+.my-items-cards {
+  display: flex;
+  justify-content: "";
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px auto;
+}
+@media (max-width: 1200px) {
+  .my-items-cards {
+    width: 91%;
+  }
+}
+@media (min-width: 760px) and (max-width: 769px) {
+  .my-items-cards {
+    width: 87%;
+    margin: 0px auto 0px 53px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1030px) {
+  .my-items-cards {
+    width: 97%;
+  }
+}
+@media (min-width: 476px) and (max-width: 479px) {
+  .my-items {
+    margin: 10px auto 0px auto;
+  }
+}
+@media (min-width: 365px) and (max-width: 475px) {
+  .my-items {
+    margin: 30px auto 0px auto;
+  }
+}
+@media (min-width: 412px) and (max-width: 414px) {
+  .my-items {
+    margin: -12px auto 0px auto;
+  }
+}
+@media (min-width: 350px) and (max-width: 411px) {
+  .my-items {
+    margin: -25px auto 0px auto;
+  }
+}
+@media (max-width: 415px) {
+  .my-items-title {
+    margin-top: -15px;
+  }
+}
+@media (max-width: 362px) {
+  .my-items-title {
+    font-size: 19px;
+    margin-top: -45px;
+  }
+}

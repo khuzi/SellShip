@@ -1,0 +1,264 @@
+.profile-main {
+  margin-top: 30px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  display: flex;
+  justify-content: center;
+  color: "#292a2e";
+}
+.profile-main-inner {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  margin: 0 auto;
+  /* // backgroundSize: 'cover', */
+  background-repeat: no-repeat;
+  background-size: 100% 58%;
+  padding-left: 2px;
+  border-radius: 9px;
+  height: 380px;
+  margin-top: 10px;
+}
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 170px;
+  padding-left: 10px;
+  padding-right: 19px;
+}
+.profile-info {
+  margin-left: 5px;
+  width: 100%;
+}
+.profile-img {
+  display: flex;
+  justify-content: space-between;
+}
+.dp-img {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  border: 2px solid #f0927b;
+  padding: 2px;
+}
+.edit-profile {
+  width: 97px;
+  height: 35px;
+  border-radius: 6px;
+  margin-top: 58px;
+  background-color: #ff7300;
+  color: #fff;
+}
+.edit-profile p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+.profile-name {
+  font-size: 16px;
+  margin-top: -8px;
+  padding-top: 4px;
+  color: #292a2e;
+}
+.profile-username {
+  color: darkgrey;
+  font-size: 15px;
+  /* font-weight: 900; */
+  margin-top: -4px;
+}
+.profile-description {
+  color: darkgrey;
+  font-size: 12px;
+  font-weight: 1300;
+  margin-top: -14px;
+}
+.profile-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+  width: 100%;
+  margin-top: -19px;
+  margin-left: -8px;
+}
+.stats-title {
+  display: flex;
+  text-align: center;
+  margin: 6px;
+}
+.stats-figures {
+  color: #292a2e;
+  font-size: 13px;
+  font-weight: bold;
+}
+.stats-text {
+  /* margin-top: 14px; */
+  color: #b6b6b6;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-top: "px";
+}
+.profile-actions {
+  width: 100%;
+  margin-left: 5px;
+}
+.actionBtn-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -14px;
+}
+.actionBtn {
+  font-size: 15px;
+  margin-right: 38px;
+  color: darkgrey;
+  font-weight: 600;
+}
+
+.actionBtn:hover {
+  color: #f0927b;
+  border-bottom: 2px solid #f0927b;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.cntbtn {
+  margin-top: 16px;
+  color: rgb(182, 182, 182);
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 9px;
+}
+
+@media (max-width: 367px) {
+  .profile-main {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1200px) {
+  .profile-main-inner {
+    width: 91%;
+  }
+}
+@media (min-width: 760px) and (max-width: 769px) {
+  .profile-main-inner {
+    width: 85%;
+  }
+}
+@media (min-width: 365px) and (max-width: 475px) {
+  .my-items {
+    margin: 30px auto 0px auto;
+  }
+  .profile-description {
+    padding-top: 2px;
+  }
+  .profile-stats {
+    padding-top: 2px;
+  }
+}
+
+@media (max-width: 415px) {
+  .profile-main-inner {
+    background-size: 100% 41%;
+  }
+  .profile-section {
+    margin-top: 103px;
+  }
+  .dp-img {
+    height: 65px;
+    width: 65px;
+    padding: 1.5px;
+    margin-top: 14px;
+  }
+  .edit-profile {
+    width: 85px;
+    height: 31px;
+    border-radius: 16px;
+    margin-top: 58px;
+  }
+  .edit-profile p {
+    margin-top: 5px;
+  }
+  .stats-title {
+    margin: 7px;
+  }
+  .profile-stats {
+    margin-left: -9px;
+  }
+  .stats-text {
+    font-size: 13px;
+  }
+  .actionBtn {
+    margin-right: 18px;
+  }
+}
+@media (max-width: 376px) {
+  .actionBtn {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 362px) {
+  .profile-main-inner {
+    background-size: 100% 35%;
+  }
+  .profile-section {
+    margin-top: 85px;
+  }
+  .dp-img {
+    height: 65px;
+    width: 65px;
+    padding: 1px;
+    margin-top: 10px;
+  }
+  .edit-profile {
+    width: 80px;
+    height: 30px;
+    border-radius: 16px;
+    margin-top: 53px;
+  }
+  .edit-profile p {
+    margin-top: 5px;
+  }
+  .stats-title {
+    margin: 6px;
+  }
+  .profile-name {
+    font-size: 15px;
+  }
+  .profile-username {
+    font-size: 14px;
+    margin-top: -8px;
+  }
+  .profile-description {
+    font-size: 11px;
+    margin-top: -13px;
+  }
+  .profile-stats {
+    margin-top: -17px;
+  }
+  .stats-figures {
+    font-size: 12px;
+  }
+  .stats-text {
+    font-size: 12px;
+  }
+  .actionBtn {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .stats-text {
+    font-size: 12px;
+  }
+  .stats-figures {
+    font-size: 12px;
+  }
+  .stats-title {
+    margin: 8px 4px 6px 4px;
+  }
+}
