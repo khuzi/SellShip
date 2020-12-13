@@ -1,9 +1,9 @@
 import React from "react";
-import { Card, CardDeck, Container,Row, Col} from "react-bootstrap";
+import Head from "next/head";
+import { Card, CardDeck, Container, Row, Col } from "react-bootstrap";
 import Accordion from "../components/Accordion";
 // import Topnav from "../navbar/Topnav";
 // import Footer from "../footer/Footer";
-
 
 class Search extends React.Component {
   constructor(props) {
@@ -47,17 +47,22 @@ class Search extends React.Component {
   render() {
     return (
       <Container className="margin-top-container">
+        <Head>
+          <title>SellShip | Buy & Sell Anything</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
         <Row>
           <Col>
-        {/* <div className="Jumbo-box"> */}
+            {/* <div className="Jumbo-box"> */}
             <img className="img" src="assets/Capturenew.jpeg" />
-          {/* </div> */}
-          {/* <Link to="/about">
+            {/* </div> */}
+            {/* <Link to="/about">
               <Button bsStyle="primary">Learn More</Button>
             </Link> */}
-           </Col>
-          </Row>
-            <Row><Col>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
             <CardDeck className={"CardDeck1"}>
               <Card
                 className="help-card"
@@ -84,19 +89,20 @@ class Search extends React.Component {
                 <Card.Title className="card-title-help">COMMUNITY</Card.Title>
               </Card>
             </CardDeck>
-            </Col></Row>
-           
-           <Row>
-             <Col>
-          {this.state.isFaq ? <Accordion data={this.state.data} /> : null}
-          {this.state.isGuide ? (
-            <Accordion data={this.state.dataGuide} />
-          ) : null}
-          {this.state.isCom ? <Accordion data={this.state.dataCom} /> : null}
-        {/* </div> */}
           </Col>
         </Row>
-        </Container>
+
+        <Row>
+          <Col>
+            {this.state.isFaq ? <Accordion data={this.state.data} /> : null}
+            {this.state.isGuide ? (
+              <Accordion data={this.state.dataGuide} />
+            ) : null}
+            {this.state.isCom ? <Accordion data={this.state.dataCom} /> : null}
+            {/* </div> */}
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
