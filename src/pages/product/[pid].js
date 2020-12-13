@@ -73,11 +73,6 @@ const Product = ({ country }) => {
     currencyDetector(country);
   }, [country, getData]);
 
-  useEffect(() => {
-    console.log("Product Details = ", productDetails);
-    console.log("User Details = ", userDetails);
-  }, [productDetails, userDetails]);
-
   if (loaded === false) {
     return (
       <div className="h-screen mt-48 mx-auto">
