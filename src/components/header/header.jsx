@@ -275,21 +275,23 @@ const Header = (props) => {
                 key={index}
                 className="text-white text-center mx-auto py-3 pl-4 pr-4"
               >
-                <a
-                  key={index + 20}
-                  href={`/#/category/${props.country}/${category}/`}
-                  className="hover:no-underline hover:text-white"
-                >
-                  {category}
-                </a>
+                <Link href={`/category/${props.country}/${category}/`}>
+                  <a
+                    key={index + 20}
+                    className="hover:no-underline hover:text-white"
+                  >
+                    {category}
+                  </a>
+                </Link>
+
                 <ul className="dropdown-content absolute hidden text-gray-500 pt-1 bg-white rounded-md  shadow-md">
                   {SUBCATEGORIES[category].map((subcategory, index) => (
                     <li key={index}>
-                      <a
-                        href={`/#/category/${props.country}/${category}/${subcategory}`}
+                      <Link
+                        href={`/category/${props.country}/${category}/${subcategory}`}
                       >
-                        {subcategory}
-                      </a>
+                        <a>{subcategory}</a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
