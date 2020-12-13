@@ -1,18 +1,17 @@
 import React, { Component } from "react";
-import icons from "../image/suit-img.jpg";
 import { DropdownButton, Dropdown } from "react-bootstrap";
 import RangeSlider from "./Slider";
 
-import "./css/search.css";
+const icons = "/assets/suit-img.jpg";
 
 export default class SearchAction extends Component {
   constructor() {
     super();
     this.state = {
       typesOfwear: [
-        { name: "coats", icon: "../img/suit-img.jpg" },
-        { name: "tops", icon: "../img/suit-img.jpg" },
-        { name: "knitwear", icon: "../img/suit-img.jpg" },
+        { name: "coats", icon: "/assets/suit-img.jpg" },
+        { name: "tops", icon: "/assets/suit-img.jpg" },
+        { name: "knitwear", icon: "/assets/suit-img.jpg" },
       ],
     };
   }
@@ -25,14 +24,14 @@ export default class SearchAction extends Component {
             <h5 style={{ marginTop: "10px" }}>HOME</h5>
             <i
               style={{ marginTop: "5px" }}
-              class="fa fa-home"
+              className="fa fa-home"
               aria-hidden="true"
             ></i>
           </div>
 
           <div className="actions">
             <h5>NEW IN</h5>
-            <i class="fa fa-fighter-jet" aria-hidden="true"></i>
+            <i className="fa fa-fighter-jet" aria-hidden="true"></i>
           </div>
 
           <div className="actions">
@@ -116,9 +115,9 @@ export default class SearchAction extends Component {
             >
               <p className="type-text">Colour</p>
 
-              <div class="dropdown">
-                <button class="dropbtn dropbtn-colour">Colour</button>
-                <div class="dropdown-content">
+              <div className="dropdown">
+                <button className="dropbtn dropbtn-colour">Colour</button>
+                <div className="dropdown-content">
                   <a href="#">Red</a>
                   <a href="#">Black</a>
                   <a href="#">Brown</a>
@@ -131,9 +130,9 @@ export default class SearchAction extends Component {
             >
               <p className="type-text">Style</p>
 
-              <div class="dropdown">
-                <button class="dropbtn">Style</button>
-                <div class="dropdown-content">
+              <div className="dropdown">
+                <button className="dropbtn">Style</button>
+                <div className="dropdown-content">
                   <a href="#">Western</a>
                   <a href="#">Men</a>
                   <a href="#">Women</a>
@@ -150,7 +149,6 @@ export default class SearchAction extends Component {
             </div>
           </div>
         </div>
-      
       </div>
     );
   }

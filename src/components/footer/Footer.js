@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import "./Footer.css";
 
 function Footer() {
   return (
@@ -110,7 +109,7 @@ function Footer() {
       
       <Container><Row><Col>
       <div className="">
-        <img style={{ height: "60px" }} src="assets/navImage.png" />
+        <img style={{ height: "60px" }} src="/assets/navImage.png" />
         <a href="/help">Help Centre</a>
         <a href={{}}>Contact Us</a>
         <a href={{}}>Press</a>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/main.css";
+// import "../../assets/main.css";
 import styled from 'styled-components';
 
 const Wrapper = styled.span`
@@ -18,11 +18,11 @@ const ButtonMenu = (props) => {
       return(
         <Wrapper>
         {label === props.selected?
-          <button id={label} class="bg-purple-700 text-white rounded py-2 px-4 font-semibold" onClick={props.change}>
+          <button id={label} className="bg-purple-700 text-white rounded py-2 px-4 font-semibold" onClick={props.change}>
             {text}
           </button>
           :
-          <button id={label} class="bg-transparent text-purple-700 py-2 px-4 border border-purple-700 rounded font-semibold" onClick={props.change}>
+          <button id={label} className="bg-transparent text-purple-700 py-2 px-4 border border-purple-700 rounded font-semibold" onClick={props.change}>
             {text}
           </button>}
         </Wrapper>

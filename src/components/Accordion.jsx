@@ -5,7 +5,7 @@ import AccordionDetails from "@material-ui/core/AccordionDetails";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import "./css/Accordion.css";
+// import "./css/Accordion.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,7 +43,7 @@ export default function ControlledAccordions(props) {
           id="panel1bh-header"
         >
           <div>
-            <img className="icon-help" src="assets/Capture10.PNG"></img>
+            <img className="icon-help" src="/assets/Capture10.PNG"></img>
           </div>
           <Typography className={classes.heading}>
             {props.data?.title}
@@ -67,7 +67,7 @@ export default function ControlledAccordions(props) {
           id="panel2bh-header"
         >
           <div>
-            <img className="icon-help" src="assets/Capture11.PNG"></img>
+            <img className="icon-help" src="/assets/Capture11.PNG"></img>
           </div>
           <Typography className={classes.heading}>Getting Started</Typography>
           <Typography className={classes.secondaryHeading}>
@@ -93,7 +93,7 @@ export default function ControlledAccordions(props) {
           id="panel3bh-header"
         >
           <div>
-            <img className="icon-help" src="assets/Capture12.PNG"></img>
+            <img className="icon-help" src="/assets/Capture12.PNG"></img>
           </div>
           <Typography
             className={classes.heading}

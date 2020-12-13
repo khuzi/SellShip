@@ -1,5 +1,9 @@
 import React from "react";
-import { Shimmer } from "react-shimmer";
+import dynamic from "next/dynamic";
+
+const Shimmer = dynamic(() => import("react-shimmer").then((a) => a.Shimmer), {
+  ssr: false,
+});
 
 const LoadingItem = (props) => {
   return (

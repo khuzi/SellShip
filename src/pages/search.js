@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import SearchFilters from "./SearchFilters";
-import SearchAction from "./SearchAction";
+import SearchFilters from "../components/SearchFilters";
+import SearchAction from "../components/SearchAction";
 import { Container, Row, Col } from "react-bootstrap";
 
 const mainPhoto = "/assets/coupon_img.jpeg";

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../form-input/form-input.scss';
+// import '../form-input/form-input.scss';
 import styled from 'styled-components';
 
 const TextArea = styled.textarea`

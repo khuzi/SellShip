@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 import { useSpring, animated } from "react-spring";
 import Modal from "react-bootstrap/Modal";
 import SignUp from "../sign-up";
@@ -64,15 +64,15 @@ const CollapseMenu = (props) => {
                 />
               </li> */}
               <li>
-                <Link to="/addItem" onClick={props.handleNavbar}>
+                <Link href="/addItem" onClick={props.handleNavbar}>
                   Add item
                 </Link>
               </li>
               <li>
-                <Link to="/profile">Profile</Link>
+                <Link href="/profile">Profile</Link>
               </li>
               <li>
-                <Link to="/" onClick={props.removeLogin}>
+                <Link href="/" onClick={props.removeLogin}>
                   Sign out
                 </Link>
               </li>

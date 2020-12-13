@@ -40,7 +40,7 @@ const ChatPopup = () => {
     else{
       getChats()
     }
-  });
+  },[]);
 
   const getChats = async () => {
     const { data } = await axios.get(
