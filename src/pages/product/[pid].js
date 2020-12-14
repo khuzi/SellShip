@@ -120,8 +120,6 @@ const Product = ({ country }) => {
       });
     }
 
-    console.log("Images = ", images);
-
     return (
       <div className="h-auto md:mt-2 mx-auto py-5">
         <Head>

@@ -19,16 +19,6 @@ const Category = () => {
 
   const getItems = useCallback(
     async (country, skip, limit) => {
-      console.log(
-        "https://api.sellship.co/api/categories/all/" +
-          router.query.categoryName +
-          "/" +
-          country +
-          "/" +
-          skip +
-          "/" +
-          limit
-      );
       await fetch(
         "https://api.sellship.co/api/categories/all/" +
           router.query.categoryName +

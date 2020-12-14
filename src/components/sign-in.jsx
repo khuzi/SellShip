@@ -34,7 +34,6 @@ class SignIn extends React.Component {
 
   login = () => {
     let form = new FormData();
-    console.log(this.state.email);
     form.append("email", this.state.email);
     form.append("password", this.state.password);
     form.append("fcmtoken", "1");

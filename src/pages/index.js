@@ -49,7 +49,7 @@ export default function Home(props) {
           "/" +
           limit
       );
-      console.log(data);
+
       setItems(items.concat(data));
     },
     [items]
@@ -103,7 +103,6 @@ export default function Home(props) {
       }
     }
     currencyDetector(country);
-    console.log("Items = ", items);
   }, [items, country, getItems, skip, limit, props]);
 
   const categories = [
