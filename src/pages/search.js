@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Head from 'next/head';
 import SearchFilters from "../components/SearchFilters";
 import SearchAction from "../components/SearchAction";
 import { Container, Row, Col } from "react-bootstrap";
