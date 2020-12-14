@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 import ProductItemCard from "../../../../components/ProductItemCard";
 import InfiniteScroll from "react-infinite-scroll-component";
@@ -91,6 +92,9 @@ export default function SubCategory() {
 
   return (
     <div className="w-11/12 mx-auto">
+      <Head>
+        <title>SellShip | Buy & Sell Anything</title>
+      </Head>
       <h1 className="font-bold text-2xl my-16">{router.query.subcategory}</h1>
       <InfiniteScroll
         dataLength={items.length}

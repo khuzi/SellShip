@@ -286,7 +286,7 @@ const Header = (props) => {
 
                 <ul className="dropdown-content absolute hidden text-gray-500 pt-1 bg-white rounded-md  shadow-md">
                   {SUBCATEGORIES[category].map((subcategory, index) => (
-                    <li key={index}>
+                    <li style={{ padding: "0rem", margin: "0" }} key={index}>
                       <Link
                         href={`/category/${props.country}/${category}/${subcategory}`}
                       >

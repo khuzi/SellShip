@@ -127,9 +127,7 @@ export default function Home(props) {
     <div>
       <Head>
         <title>SellShip | Buy & Sell Anything</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Container className="mt-4">
         <Modal show={isOpenDownload} onHide={hideModalDownload} size="md">
           <Modal.Body>

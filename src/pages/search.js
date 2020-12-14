@@ -9,6 +9,9 @@ export default class Search extends Component {
   render() {
     return (
       <Container className="margin-top-container">
+        <Head>
+          <title>SellShip | Buy & Sell Anything</title>
+        </Head>
         <Row>
           <Col>
             <img className="photo-jmbo" src={mainPhoto} />

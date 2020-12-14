@@ -77,6 +77,7 @@ function MyApp({ Component, pageProps }) {
         {...pageProps}
         countryChange={countryChange}
         country={country}
+        loggedIn={loggedIn}
       />
       <Footer />
     </>

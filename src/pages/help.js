@@ -49,7 +49,6 @@ class Search extends React.Component {
       <Container className="margin-top-container">
         <Head>
           <title>SellShip | Buy & Sell Anything</title>
-          <link rel="icon" href="/favicon.ico" />
         </Head>
         <Row>
           <Col>
